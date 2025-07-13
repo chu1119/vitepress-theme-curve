@@ -68,7 +68,7 @@ export const getMusicList = async (url, id, server = "netease", type = "playlist
  * 站点统计数据
  */
 export const getStatistics = async (key) => {
-  const result = await fetch(`https://v6-widget.51.la/v6/${key}/quote.js`);
+  const result = await fetch(`https://v6-widg et.51.la/v6/${key}/quote.js`);
   const title = [
     "最近活跃",
     "今日人数",
